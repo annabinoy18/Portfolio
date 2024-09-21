@@ -331,7 +331,7 @@ nav .fa-solid{
 }
 
 /*-----------------------css for small screen---------------------*/
-@media (max-width:480px){
+@media (max-width:600px){
     #header{
         background-image: url(images/phone_bg2.png);
     }

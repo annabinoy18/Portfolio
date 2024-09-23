@@ -331,7 +331,7 @@ nav .fa-solid{
 }
 
 /*-----------------------css for small screen---------------------*/
-@media only screen and (max-width:600px){
+@media  (max-width:600px){
     #header{
         background-image: url(images/phone_bg2.png);
     }
@@ -382,12 +382,22 @@ nav .fa-solid{
     }
     .about-col-1,.about-col-2{
         flex-basis:100%;
+        text-align:center;
     }
     .about-col-1{
         margin-bottom:30px;
     }
     .about-col-2{
         font-size: 14px;
+    }
+    .about-col-1 img{
+        margin:0 auto;
+    }
+    .about-col-2 p{
+        margin: 0 auto;
+    }
+    .tab-titiles{
+        justify-content:center;
     }
     .tab-links{
         font-size:16px;
